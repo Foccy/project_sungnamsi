@@ -1,2 +1,99 @@
-p{color: red}
-h1{color: red}
+header{
+  width:100%;
+  border: 1px solid #ececec;
+  .header_utility{
+    border: 1px solid #ececec;
+    margin:auto;
+    max-width: 1400px;
+    height:44px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    .linked_site{
+      display: flex;
+       li{
+        font-size: 16px;
+        color: #333;
+        border-right: 1px solid #ececec;
+        align-items: center;
+        height: 100%;
+        padding: 0 20px;
+        a{
+          line-height: 44px;
+        }
+       }
+    }
+    .login_utility{
+      display: flex;
+      li{
+        font-size: 16px;
+        color: #333;
+        align-items: center;
+        height: 100%;
+        padding: 0 15px;
+        a{
+          line-height: 44px;
+          font-size: 14px;
+        }
+      }
+      .login::before {
+        content: "\f2f6";
+        display: inline-block;
+        font-family: "Font Awesome 5 Free";
+        color:gray;
+        width: 24px;
+        font-weight: 900;
+        height: 29px;
+      }
+      .signin::before {
+        content: "\f507";
+        display: inline-block;
+        font-family: "Font Awesome 5 Free";
+        color:gray;
+        width: 24px;
+        font-weight: 900;
+        height: 29px;
+        padding-right: 7px;
+      }
+      .lang_btn{
+        border:none;
+        background-color: white;
+        span{
+          font-size: 14px;
+          line-height: 29px;
+        }
+        span::before{
+          content: "\f0ac";
+          display: inline-block;
+          font-family: "Font Awesome 5 Free";
+          color:gray;
+          width: 24px;
+          font-weight: 900;
+          height: 29px;
+        }
+      }
+      .sitelink_btn{
+        background-color: #636676;
+        border:none;
+        border-radius: 0 0 10px 10px;
+        margin-left: 20px;
+        span{
+          font-size: 17px;
+          line-height: 29px;
+          color: white;
+          font-weight: 400;
+        }
+        span::before{
+          content: "\f009";
+          display: inline-block;
+          font-family: "Font Awesome 5 Free";
+          width: 24px;
+          color: white;
+          font-weight: 700;
+          height: 29px;
+        }
+      }
+    }
+    
+  }
+  }
