@@ -6,7 +6,6 @@ header{
     margin:auto;
     max-width: 1400px;
     height:44px;
-    background-color: white;
     display: flex;
     justify-content: space-between;
     .linked_site{
@@ -91,6 +90,71 @@ header{
           color: white;
           font-weight: 700;
           height: 29px;
+        }
+      }
+    }
+    
+  }
+  nav{
+    width: 100%;
+    border: 1px solid #ececec;
+    .nav_bar{
+      border: 1px 1px px 0px  solid #ececec;
+      margin:auto;
+      max-width: 1400px;
+      height:95px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .logo_box{
+        position: relative;
+        display: flex;
+        .event_logo{
+          margin-left: 40px;
+        }
+        .event_logo::before{
+          content: "";
+          position: absolute;
+          width:3px;
+          height:31px;
+          background-color: #9c9c9c;
+          top:30px;
+          right:165px;
+          transform: translateY(-50%);
+        }
+      }
+      .menu_list{
+        display: flex;
+        li{
+          height:100%;
+          a{
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            padding: 0 29px;
+            font-weight: 900;
+            font-size: 21px;
+          }
+        }
+      }
+      .ico_list{
+        display: flex;
+        .hamberger_ico::before{
+          content: "\f0c9";
+          display: inline-block;
+          font-family: "Font Awesome 5 Free";
+          color:gray;
+          font-size: 32px;
+          font-weight: 600;
+        }
+        .searching_ico::before{
+          content: "\f002";
+          display: inline-block;
+          font-family: "Font Awesome 5 Free";
+          color:gray;
+          font-size: 32px;
+          font-weight: 900;
+          padding-left: 15px;
         }
       }
     }
