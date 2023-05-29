@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c8f5881a4e.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
@@ -34,7 +35,7 @@
           <div class="event_logo"><a href="#"><img src="./img/50th_logo.gif" alt=""></a></div> 
         </div>
         <!-- nav sec1 -->
-        <div>
+        <div class="one_depth">
           <ul class="menu_list">
             <li><a href="#">시정소식</a></li>
             <li><a href="#">전자민원</a></li>
@@ -52,35 +53,121 @@
         <!-- nav sec3 -->
       </div>
     </nav>
-
-
+    <!-- nav -->
 
   </header>
 
-  <main>
-    <section>
-      <div></div>
-      <!-- weatherAPI -->
-      <div></div>
-      <!-- searching -->
-      <div></div>
-      <!-- corona coll -->
-    </section>
+  <div class="section_container">
+    <section class="section1">
+      <div class="section1_grouping">
+        <div class="weather_api">
+          <a href="#">
+            <span class="weather_ico"><i class="fas fa-cloud"></i></span>
+            <span class="temperature">27ºC</span>
+            <span class="i"><i class="fas fa-plus-circle"></i></span>
+            <span class="dust_envi">초미세먼지</span>
+            <span class="dust_eval">좋음</span>
+            <span class="i"><i class="fas fa-plus-circle"></i></span>
+          </a>
+        </div>
+        <!-- weather_api -->
 
-    <section>
-      <div></div>
-      <!-- slider -->
-      <div></div>
-      <!-- introduce -->
+        <div class="search_box">
+          <div class="searching">
+            <select name="" id="">
+              <option selected="통합검색"value="">통합검색</option>
+              <option value="">관련사이트</option>
+              <option value="">디렉토리</option>
+              <option value="">게시판</option>
+              <option value="">웹페이지</option>
+              <option value="">멀티미디어</option>
+              <option value="">직원/업무</option>
+            </select>
+            <input type="text" placeholder="검색어를 입력하세요.">
+            <button class="search_btn"><i class="fas fa-search"></i></button>
+          </div>
+          <div class="popular_search">
+            <div>
+              <span class="popular">인기검색어</span>
+            </div>
+            <div class="popular_word">
+              <span>보건증</span>
+              <span>풋살장 예약</span>
+              <span>여권</span>
+              <span>음식물 처리기 지원</span>
+              <span>폐기물</span>
+            </div>
+            <div>
+              <button><i class="fas fa-caret-left"></i></button>
+              <button><i class="fas fa-caret-right"></i></button>
+            </div>
+          </div>
+        </div>
+        <!-- searching -->
+
+        <div class="corona_api">
+          <div class="now_patient">💥코로나19 확진자 현황<i class="fas fa-arrow-circle-right"></i></div>
+          <div class="daily_patient">
+            <div class="day">일일
+              <span>123</span>
+            </div>
+            <div class="col">누계
+              <span>1,200</span>
+            </div>
+          </div>
+          <span class="now_days">2020.05.05. 00:00 기준</span>
+        </div>
+        <!-- corona_api -->
+        
+      </div>
+
+
+
+      <div class="section1_banners">
+        <div class="slide_banner">
+          <div class="banners">1</div>
+          <div class="banners_btn">1</div>
+        </div>
+        <div class="sungnam_mayor">
+          <div class="poster">1</div>
+          <div class="mayor_btn">1</div>
+        </div>
+      </div>
     </section>
-  </main>
+  </div>
   <!-- section1 -->
 
 
+
+    <div class="section_container">
+      <section class="section2">
+        <div></div>
+        <!-- slider -->
+        <div></div>
+        <!-- introduce -->
+      </section>
+      <!-- section2 -->
+    </div>
+
+
+    <div class="section_container">
+      <section class="section3">
+      </section>
+      <!-- section3 -->
+    </div>
+
+
+    <div class="section_container">
+      <section class="section4">
+      </section>
+      <!-- section4 -->
+    </div>
   
-  <section></section>
-  <section></section>
-  <section></section>
-  <footer></footer>
+
+  <footer>
+    
+  </footer>
+
+
 </body>
 </html>
