@@ -226,34 +226,34 @@ header nav .nav_bar .ico_list .searching_ico::before {
   padding-left: 15px;
 }
 
-.section_container {
+.section_container1 {
   position: relative;
   width: 100%;
   background-color: #f7f7f7;
 }
-.section_container .section1 {
+.section_container1 .section1 {
   max-width: 1400px;
   margin: auto;
   height: 700px;
   padding: 50px 0px 50px;
 }
-.section_container .section1 .section1_grouping {
+.section_container1 .section1 .section1_grouping {
   display: flex;
   justify-content: space-around;
 }
-.section_container .section1 .section1_grouping .weather_api {
+.section_container1 .section1 .section1_grouping .weather_api {
   margin-top: 20px;
 }
-.section_container .section1 .section1_grouping .weather_api i {
+.section_container1 .section1 .section1_grouping .weather_api i {
   color: #9c9c9c;
 }
-.section_container .section1 .section1_grouping .weather_api .dust_envi {
+.section_container1 .section1 .section1_grouping .weather_api .dust_envi {
   color: #9c9c9c;
 }
-.section_container .section1 .section1_grouping .weather_api .dust_eval {
+.section_container1 .section1 .section1_grouping .weather_api .dust_eval {
   color: blue;
 }
-.section_container .section1 .section1_grouping .search_box .searching {
+.section_container1 .section1 .section1_grouping .search_box .searching {
   width: 600px;
   height: 52px;
   border: solid 1px #636676;
@@ -261,7 +261,7 @@ header nav .nav_bar .ico_list .searching_ico::before {
   display: flex;
   justify-content: space-between;
 }
-.section_container .section1 .section1_grouping .search_box .searching select {
+.section_container1 .section1 .section1_grouping .search_box .searching select {
   border: none;
   width: 100px;
   height: 52px;
@@ -269,14 +269,14 @@ header nav .nav_bar .ico_list .searching_ico::before {
   border-radius: 17px;
   background-color: #f7f7f7;
 }
-.section_container .section1 .section1_grouping .search_box .searching input {
+.section_container1 .section1 .section1_grouping .search_box .searching input {
   width: 400px;
   font-family: sans-serif;
   font-size: 15px;
   border: none;
   background-color: #f7f7f7;
 }
-.section_container .section1 .section1_grouping .search_box .searching .search_btn {
+.section_container1 .section1 .section1_grouping .search_box .searching .search_btn {
   width: 65px;
   height: 52px;
   border: none;
@@ -284,38 +284,38 @@ header nav .nav_bar .ico_list .searching_ico::before {
   background-color: #636677;
   text-align: center;
 }
-.section_container .section1 .section1_grouping .search_box .searching .search_btn i {
+.section_container1 .section1 .section1_grouping .search_box .searching .search_btn i {
   font-size: 35px;
   color: white;
   padding-top: 6px;
 }
-.section_container .section1 .section1_grouping .search_box .popular_search {
+.section_container1 .section1 .section1_grouping .search_box .popular_search {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
-.section_container .section1 .section1_grouping .search_box .popular_search .popular {
+.section_container1 .section1 .section1_grouping .search_box .popular_search .popular {
   font-size: 16px;
   margin-right: 30px;
   font-weight: 900;
 }
-.section_container .section1 .section1_grouping .search_box .popular_search .popular_word span {
+.section_container1 .section1 .section1_grouping .search_box .popular_search .popular_word span {
   font-size: 13px;
   font-family: sans-serif;
   margin-right: 10px;
 }
-.section_container .section1 .section1_grouping .search_box .popular_search button {
+.section_container1 .section1 .section1_grouping .search_box .popular_search button {
   margin-left: 5px;
   border: none;
   background-color: #f7f7f7;
 }
-.section_container .section1 .section1_grouping .search_box .popular_search button i {
+.section_container1 .section1 .section1_grouping .search_box .popular_search button i {
   font-size: 20px;
 }
-.section_container .section1 .section1_grouping .corona_api .now_patient {
+.section_container1 .section1 .section1_grouping .corona_api .now_patient {
   letter-spacing: 1px;
 }
-.section_container .section1 .section1_grouping .corona_api .daily_patient {
+.section_container1 .section1 .section1_grouping .corona_api .daily_patient {
   width: 210px;
   height: 28px;
   border: none;
@@ -327,56 +327,56 @@ header nav .nav_bar .ico_list .searching_ico::before {
   justify-content: center;
   align-items: center;
 }
-.section_container .section1 .section1_grouping .corona_api .daily_patient .day {
+.section_container1 .section1 .section1_grouping .corona_api .daily_patient .day {
   color: red;
 }
-.section_container .section1 .section1_grouping .now_days {
+.section_container1 .section1 .section1_grouping .now_days {
   font-size: 12px;
   margin-left: 33px;
 }
-.section_container .section1_banners {
+.section_container1 .section1 .section1_banners {
   display: flex;
   justify-content: space-between;
   margin: 50px 0px 0px;
 }
-.section_container .section1_banners .slide_banner .banners {
+.section_container1 .section1 .section1_banners .slide_banner .banners {
   width: 835px;
   height: 420px;
   border-radius: 20px;
   margin-bottom: 20px;
 }
-.section_container .section1_banners .slide_banner .banners img {
+.section_container1 .section1 .section1_banners .slide_banner .banners img {
   border-radius: 20px;
 }
-.section_container .section1_banners .slide_banner .banners_btn {
+.section_container1 .section1 .section1_banners .slide_banner .banners_btn {
   margin-left: 15px;
 }
-.section_container .section1_banners .slide_banner .banners_btn button {
+.section_container1 .section1 .section1_banners .slide_banner .banners_btn button {
   border: none;
   background-color: #f7f7f7;
 }
-.section_container .section1_banners .slide_banner .banners_btn button i {
+.section_container1 .section1 .section1_banners .slide_banner .banners_btn button i {
   font-size: 22px;
 }
-.section_container .section1_banners .sungnam_mayor {
+.section_container1 .section1 .section1_banners .sungnam_mayor {
   position: relative;
   width: 520px;
   height: 420px;
   background: url(../../img/mayor.png) no-repeat;
   background-position: 182px 43px;
 }
-.section_container .section1_banners .sungnam_mayor .poster {
+.section_container1 .section1 .section1_banners .sungnam_mayor .poster {
   padding: 30px 10px 15px;
 }
-.section_container .section1_banners .sungnam_mayor .mayor_who {
+.section_container1 .section1 .section1_banners .sungnam_mayor .mayor_who {
   font-size: 20px;
   padding: 10px 5px 45px;
 }
-.section_container .section1_banners .sungnam_mayor .mayor_who .mayor_name {
+.section_container1 .section1 .section1_banners .sungnam_mayor .mayor_who .mayor_name {
   font-size: 32px;
   font-weight: bold;
 }
-.section_container .section1_banners .sungnam_mayor .mayor_link_box {
+.section_container1 .section1 .section1_banners .sungnam_mayor .mayor_link_box {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -386,16 +386,16 @@ header nav .nav_bar .ico_list .searching_ico::before {
   border-radius: 20px;
   background-color: #f8dee0;
 }
-.section_container .section1_banners .sungnam_mayor .mayor_link_box .mayor_link {
+.section_container1 .section1 .section1_banners .sungnam_mayor .mayor_link_box .mayor_link {
   font-size: 19px;
   text-align: center;
   font-weight: bolder;
 }
-.section_container .section1_banners .sungnam_mayor .mayor_link_box .link_btn i {
+.section_container1 .section1 .section1_banners .sungnam_mayor .mayor_link_box .link_btn i {
   font-size: 26px;
   color: #9c9c9c;
 }
-.section_container .section1_banners .mayor_btn {
+.section_container1 .section1 .section1_banners .mayor_btn {
   display: flex;
   justify-content: center;
   position: absolute;
@@ -405,12 +405,12 @@ header nav .nav_bar .ico_list .searching_ico::before {
   background-color: #d84048;
   border-radius: 20px;
 }
-.section_container .section1_banners .mayor_btn a {
+.section_container1 .section1 .section1_banners .mayor_btn a {
   font-size: 16px;
   color: white;
   margin: 25px 15px 0px;
 }
-.section_container .section1_banners .mayor_btn .mayor_want::before {
+.section_container1 .section1 .section1_banners .mayor_btn .mayor_want::before {
   content: "";
   display: block;
   margin: 0px auto 10px;
@@ -418,7 +418,7 @@ header nav .nav_bar .ico_list .searching_ico::before {
   height: 44px;
   background-image: url(../../img/mayor_btn.png);
 }
-.section_container .section1_banners .mayor_btn .mayor_promise::before {
+.section_container1 .section1 .section1_banners .mayor_btn .mayor_promise::before {
   content: "";
   display: block;
   margin: 0px auto 10px;
@@ -427,7 +427,7 @@ header nav .nav_bar .ico_list .searching_ico::before {
   background-image: url(../../img/mayor_btn.png);
   background-position: -42px 0px;
 }
-.section_container .section1_banners .mayor_btn .mayor_photo::before {
+.section_container1 .section1 .section1_banners .mayor_btn .mayor_photo::before {
   content: "";
   display: block;
   margin: 0px auto 10px;
@@ -436,7 +436,7 @@ header nav .nav_bar .ico_list .searching_ico::before {
   background-image: url(../../img/mayor_btn.png);
   background-position: -86px 0px;
 }
-.section_container .section1_banners .mayor_btn .mayor_call::before {
+.section_container1 .section1 .section1_banners .mayor_btn .mayor_call::before {
   content: "";
   display: block;
   margin: 0px auto 10px;
@@ -446,11 +446,96 @@ header nav .nav_bar .ico_list .searching_ico::before {
   background-position: -130px 0px;
 }
 
-.section2 {
+.section_container2 {
+  position: relative;
   width: 100%;
-  height: 700px;
-  background-color: #cecece;
-  padding: 50px 0px 50px;
+  background-color: #ebecec;
+}
+.section_container2 .section2 {
+  max-width: 1400px;
+  margin: auto;
+  width: 100%;
+  height: 520px;
+  background-color: #ebecec;
+  display: flex;
+  justify-content: space-between;
+}
+.section_container2 .section2 .main_service {
+  width: 950px;
+  height: 517px;
+  padding: 60px 35px 90px 0;
+  background: url(../../img/main_service_bg01.png) no-repeat, url(../../img/main_service_bg02.png) no-repeat;
+  background-position: 0px 463px, 626px 378px;
+}
+.section_container2 .section2 .main_service .service_h {
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 0px 0px 35px;
+}
+.section_container2 .section2 .main_service .service_part {
+  display: flex;
+  justify-content: space-between;
+}
+.section_container2 .section2 .main_service .service_part a {
+  width: 185px;
+  height: 65px;
+  background-color: white;
+  border-radius: 12px;
+  font-weight: bolder;
+  font-size: 21px;
+  text-align: center;
+  line-height: 3;
+}
+.section_container2 .section2 .main_service .service_part a img {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+}
+.section_container2 .section2 .main_service .service_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section_container2 .section2 .main_service .service_box a {
+  text-align: center;
+  line-height: 3.5;
+  color: #636677;
+  width: 230px;
+  height: 55px;
+  border-radius: 12px;
+  margin: 30px 0px 10px;
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+.section_container2 .section2 .public_infromation {
+  width: 395px;
+  height: 517px;
+  padding: 60px 0px 90px 0px;
+}
+.section_container2 .section2 .public_infromation p {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.section_container2 .section2 .public_infromation p span {
+  font-size: 18px;
+}
+.section_container2 .section2 .public_infromation .public_info_ico {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.section_container2 .section2 .public_infromation .public_info_ico a {
+  width: 90px;
+  height: 90px;
+  margin: 15px 26px 59px 10px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+.section_container2 .section2 .public_infromation .public_info_ico a p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .section3 {
