@@ -303,7 +303,6 @@ header nav .nav_bar .ico_list .searching_ico::before {
   font-size: 13px;
   font-family: sans-serif;
   margin-right: 10px;
-  letter-spacing: 2px;
 }
 .section_container .section1 .section1_grouping .search_box .popular_search button {
   margin-left: 5px;
@@ -338,7 +337,115 @@ header nav .nav_bar .ico_list .searching_ico::before {
 .section_container .section1_banners {
   display: flex;
   justify-content: space-between;
+  margin: 50px 0px 0px;
 }
+.section_container .section1_banners .slide_banner .banners {
+  width: 835px;
+  height: 420px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.section_container .section1_banners .slide_banner .banners img {
+  border-radius: 20px;
+}
+.section_container .section1_banners .slide_banner .banners_btn {
+  margin-left: 15px;
+}
+.section_container .section1_banners .slide_banner .banners_btn button {
+  border: none;
+  background-color: #f7f7f7;
+}
+.section_container .section1_banners .slide_banner .banners_btn button i {
+  font-size: 22px;
+}
+.section_container .section1_banners .sungnam_mayor {
+  position: relative;
+  width: 520px;
+  height: 420px;
+  background: url(../../img/mayor.png) no-repeat;
+  background-position: 182px 43px;
+}
+.section_container .section1_banners .sungnam_mayor .poster {
+  padding: 30px 10px 15px;
+}
+.section_container .section1_banners .sungnam_mayor .mayor_who {
+  font-size: 20px;
+  padding: 10px 5px 45px;
+}
+.section_container .section1_banners .sungnam_mayor .mayor_who .mayor_name {
+  font-size: 32px;
+  font-weight: bold;
+}
+.section_container .section1_banners .sungnam_mayor .mayor_link_box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 180px;
+  height: 46px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f8dee0;
+}
+.section_container .section1_banners .sungnam_mayor .mayor_link_box .mayor_link {
+  font-size: 19px;
+  text-align: center;
+  font-weight: bolder;
+}
+.section_container .section1_banners .sungnam_mayor .mayor_link_box .link_btn i {
+  font-size: 26px;
+  color: #9c9c9c;
+}
+.section_container .section1_banners .mayor_btn {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 520px;
+  height: 115px;
+  background-color: #d84048;
+  border-radius: 20px;
+}
+.section_container .section1_banners .mayor_btn a {
+  font-size: 16px;
+  color: white;
+  margin: 25px 15px 0px;
+}
+.section_container .section1_banners .mayor_btn .mayor_want::before {
+  content: "";
+  display: block;
+  margin: 0px auto 10px;
+  width: 44px;
+  height: 44px;
+  background-image: url(../../img/mayor_btn.png);
+}
+.section_container .section1_banners .mayor_btn .mayor_promise::before {
+  content: "";
+  display: block;
+  margin: 0px auto 10px;
+  width: 44px;
+  height: 44px;
+  background-image: url(../../img/mayor_btn.png);
+  background-position: -42px 0px;
+}
+.section_container .section1_banners .mayor_btn .mayor_photo::before {
+  content: "";
+  display: block;
+  margin: 0px auto 10px;
+  width: 44px;
+  height: 44px;
+  background-image: url(../../img/mayor_btn.png);
+  background-position: -86px 0px;
+}
+.section_container .section1_banners .mayor_btn .mayor_call::before {
+  content: "";
+  display: block;
+  margin: 0px auto 10px;
+  width: 44px;
+  height: 44px;
+  background-image: url(../../img/mayor_btn.png);
+  background-position: -130px 0px;
+}
+
 .section2 {
   width: 100%;
   height: 700px;

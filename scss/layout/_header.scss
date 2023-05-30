@@ -238,7 +238,6 @@ header{
               font-size: 13px;
               font-family: sans-serif;
               margin-right: 10px;
-              letter-spacing: 2px;
             }
           }
           button{
@@ -280,18 +279,120 @@ header{
     .section1_banners{
       display: flex;
       justify-content: space-between;
+      margin:50px 0px 0px;
       .slide_banner{
-        .banners{}
-        .banners_btn{}
-      }
-      .sungnam_mayor{
-        .poster{}
-        .mayor_btn{
-          
+        .banners{
+          width:835px;
+          height:420px;
+          border-radius: 20px;
+          margin-bottom: 20px;
+          img{
+            border-radius: 20px;
+          }
+        }
+        .banners_btn{
+          margin-left: 15px;
+          button{
+            border:none;
+            background-color: #f7f7f7;
+            i{
+              font-size: 22px;
+            }
+          }
         }
       }
+      .sungnam_mayor{
+          position: relative;
+          width:520px;
+          height:420px;
+          background: url(../../img/mayor.png) no-repeat;
+          background-position: 182px 43px;
+          .poster{
+            padding:30px 10px 15px;
+            }
+          .mayor_who{
+            font-size: 20px;
+            padding: 10px 5px 45px;
+            .mayor_name{
+              font-size: 32px;
+              font-weight: bold;
+            }
+          }
+          .mayor_link_box{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width:180px;
+            height: 46px;
+            border:none;
+            border-radius: 20px;
+            background-color: #f8dee0;
+            .mayor_link{
+              font-size: 19px;
+              text-align: center;
+              font-weight: bolder;
+            }
+            .link_btn{
+              i{
+                font-size: 26px;
+                color:#9c9c9c;
+              }
+            }
+          }
+          }
+          .mayor_btn{
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            bottom:0; 
+            width:520px;
+            height: 115px;
+            background-color: #d84048;
+            border-radius: 20px;
+            a{
+              font-size: 16px;
+              color:white;
+              margin: 25px 15px 0px;
+            }
+            .mayor_want::before{
+              content:'';
+              display: block;
+              margin:0px auto 10px;
+              width: 44px;
+              height: 44px;
+              background-image: url(../../img/mayor_btn.png);
+            }
+            .mayor_promise::before{
+              content:'';
+              display: block;
+              margin:0px auto 10px;
+              width: 44px;
+              height: 44px;
+              background-image: url(../../img/mayor_btn.png);
+              background-position: -42px 0px;
+            }
+            .mayor_photo::before{
+              content:'';
+              display: block;
+              margin:0px auto 10px;
+              width: 44px;
+              height: 44px;
+              background-image: url(../../img/mayor_btn.png);
+              background-position: -86px 0px;
+            }
+            .mayor_call::before{
+              content:'';
+              display: block;
+              margin:0px auto 10px;
+              width: 44px;
+              height: 44px;
+              background-image: url(../../img/mayor_btn.png);
+              background-position: -130px 0px;
+            }
+          }
+      }
     }
-    }
+    
     
   
   .section2{
