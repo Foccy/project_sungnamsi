@@ -170,7 +170,7 @@ header{
   .section1{
     max-width: 1400px;
     margin:auto;
-    height:700px;
+    height:600px;
     padding: 50px 0px 50px;
     .section1_grouping{
       display: flex;
@@ -304,7 +304,7 @@ header{
           position: relative;
           width:520px;
           height:420px;
-          background: url(../../img/mayor.png) no-repeat;
+          background: url(../img/mayor.png) no-repeat;
           background-position: 182px 43px;
           .poster{
             padding:30px 10px 15px;
@@ -359,7 +359,7 @@ header{
               margin:0px auto 10px;
               width: 44px;
               height: 44px;
-              background-image: url(../../img/mayor_btn.png);
+              background-image: url(../img/mayor_btn.png);
             }
             .mayor_promise::before{
               content:'';
@@ -367,7 +367,7 @@ header{
               margin:0px auto 10px;
               width: 44px;
               height: 44px;
-              background-image: url(../../img/mayor_btn.png);
+              background-image: url(../img/mayor_btn.png);
               background-position: -42px 0px;
             }
             .mayor_photo::before{
@@ -376,7 +376,7 @@ header{
               margin:0px auto 10px;
               width: 44px;
               height: 44px;
-              background-image: url(../../img/mayor_btn.png);
+              background-image: url(../img/mayor_btn.png);
               background-position: -86px 0px;
             }
             .mayor_call::before{
@@ -385,7 +385,7 @@ header{
               margin:0px auto 10px;
               width: 44px;
               height: 44px;
-              background-image: url(../../img/mayor_btn.png);
+              background-image: url(../img/mayor_btn.png);
               background-position: -130px 0px;
             }
           }
@@ -409,7 +409,7 @@ header{
       width:950px;
       height:517px;
       padding: 60px 35px 90px 0;
-      background: url(../../img/main_service_bg01.png) no-repeat ,url(../../img/main_service_bg02.png) no-repeat;
+      background: url(../img/main_service_bg01.png) no-repeat ,url(../img/main_service_bg02.png) no-repeat;
       background-position: 0px 463px, 626px 378px;;
       .service_h{
         font-size: 30px;
@@ -487,23 +487,185 @@ header{
     }
   }
 
-  
-
-
-
+.section_container3{
+  position: relative;
+  width:100%;
+  background-color: white;
   .section3{
+    max-width: 1400px;
+    margin: auto;
     width:100%;
-    height:700px;
-    background-color: #fad8d8;
-    padding: 50px 0px 50px;
+    height:373px;
+    background-color: #ffffff;
+    padding: 70px 0px 80px;
+    display: flex;
+    justify-content: space-between;
+    .notice{
+      width:940px;
+      height:356px;
+      div{
+        .notice_list{
+        display: flex;
+        justify-content: space-between;
+        height: 54px;
+        border-radius: 10px;
+        border: 1px solid #dedede;
+        margin-bottom: 50px;
+        li{
+          border-right: 1px solid #dedede;
+          width:170px;
+          height: 54px;
+          text-align: center;
+          line-height: 2.5;
+          a{
+            font-size: 20px;
+            font-weight: bolder;
+          }
+        }
+        button{
+          width:48px;
+          height:54px;
+          border: none;
+          background-color: white;
+          i{
+            font-size: 22px;
+          }
+        }
+      }
+      }
+      .notice_info{
+        display: flex;
+        justify-content: space-between;
+        .info_box{
+          width: 260px;
+          height: 260px;
+          padding:25px;
+          border:1px solid #e6e8eb;
+          border-radius: 15px;
+          box-sizing: border-box;
+          p:nth-child(1){
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            span:nth-child(1){
+              color:red;
+              font-size: 18px;
+              font-weight: bolder;
+            }
+            span:nth-child(2){
+              width:45px;
+              height: 20px;
+              background-color: #636676;
+              color:white;
+              font-size: 12px;
+              border-radius: 15px;
+              text-align: center;
+              line-height: 1.8;
+            }
+          }
+          p:nth-child(2){
+            margin-bottom: 10px;
+            font-size: 18px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            font-weight: bolder;
+          }
+          p:nth-child(3){
+            font-family: sans-serif;
+            font-size: 15px;
+            color:#888;
+            line-height: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            word-wrap: break-word;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+          }
+        }
+        .info_list{
+          width: 640px;
+          height: 260px;
+          .list_arry{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 6px;
+            list-style: inside;
+            li{
+              font-size: 16px;
+              line-height: 2;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              word-wrap: break-word;
+              -webkit-line-clamp: 1;
+              -webkit-box-orient: vertical;
+            }
+            span{
+              font-size: 13px;
+              line-height: 2.5;
+              padding-left: 5px;
+            }
+          }
+        }
+      }
+    }
+    .city_hall{
+      width:402px;
+      height:356px;
+      .city_hall_list{
+        display: flex;
+        justify-content: space-between;
+        height: 61px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        border: 1px solid #dedede;
+        li{
+          width: 135px;
+          height: 61px;
+          border-right: 1px solid #dedede;
+          text-align: center;
+          line-height: 3.2;
+          a{
+            font-size: 19px;
+          }
+        }
+      }
+      .city_hall_banner{
+        border-radius: 15px;
+        margin-bottom: 15px;
+        img{
+          border: 1px solid #ddd;
+          border-radius: 20px;
+          box-sizing: border-box;
+        }
+      }
+      .city_hall_btn{
+        margin-left: 20px;
+        button{
+          border:none;
+          background-color: white;
+        }
+      }
+    }
   }
+}
+
+.section_container4{
   .section4{
     width:100%;
     height:700px;
     background-color: #ccc0c0;
     padding: 50px 0px 50px;
   }
-
+}
+  
+footer{
+  width:100%;
+  height:245px;
+  background-color: #f8dee0;
+}
     
     
   
