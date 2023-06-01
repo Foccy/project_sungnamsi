@@ -161,7 +161,7 @@ header{
     }
     
   }
-  }
+}
 
 .section_container1{
   position: relative;
@@ -189,12 +189,12 @@ header{
       }
       .search_box{
         .searching{
-        width: 600px;
-        height:52px;
-        border: solid 1px #636676;
-        border-radius: 17px;
-        display: flex;
-        justify-content: space-between;
+          width: 600px;
+          height:52px;
+          border: solid 1px #636676;
+          border-radius: 17px;
+          display: flex;
+          justify-content: space-between;
         select{
           border:none;
           width: 100px;
@@ -202,14 +202,14 @@ header{
           padding-left: 10px;
           border-radius: 17px;
           background-color: #f7f7f7;
-          }
+        }
         input{
           width: 400px;
           font-family: sans-serif;
           font-size: 15px;
           border:none;
           background-color: #f7f7f7;
-          }
+        }
         .search_btn{
           width:65px;
           height: 52px;
@@ -221,8 +221,8 @@ header{
             font-size: 35px;
             color:white;
             padding-top: 6px;
-            }
           }
+        }
         }
         .popular_search{
           display: flex;
@@ -267,14 +267,14 @@ header{
           align-items: center;
           .day{
             color: red;
-            }
           }
         }
-        .now_days{
-          font-size: 12px;
-          margin-left: 33px;
-        }
       }
+      .now_days{
+        font-size: 12px;
+        margin-left: 33px;
+      }
+    }
     .section1_banners{
       display: flex;
       justify-content: space-between;
@@ -308,7 +308,7 @@ header{
           background-position: 182px 43px;
           .poster{
             padding:30px 10px 15px;
-            }
+          }
           .mayor_who{
             font-size: 20px;
             padding: 10px 5px 45px;
@@ -338,58 +338,58 @@ header{
               }
             }
           }
-          }
-          .mayor_btn{
-            display: flex;
-            justify-content: center;
-            position: absolute;
-            bottom:0; 
-            width:520px;
-            height: 115px;
-            background-color: #d84048;
-            border-radius: 20px;
-            a{
-              font-size: 16px;
-              color:white;
-              margin: 25px 15px 0px;
-            }
-            .mayor_want::before{
-              content:'';
-              display: block;
-              margin:0px auto 10px;
-              width: 44px;
-              height: 44px;
-              background-image: url(../img/mayor_btn.png);
-            }
-            .mayor_promise::before{
-              content:'';
-              display: block;
-              margin:0px auto 10px;
-              width: 44px;
-              height: 44px;
-              background-image: url(../img/mayor_btn.png);
-              background-position: -42px 0px;
-            }
-            .mayor_photo::before{
-              content:'';
-              display: block;
-              margin:0px auto 10px;
-              width: 44px;
-              height: 44px;
-              background-image: url(../img/mayor_btn.png);
-              background-position: -86px 0px;
-            }
-            .mayor_call::before{
-              content:'';
-              display: block;
-              margin:0px auto 10px;
-              width: 44px;
-              height: 44px;
-              background-image: url(../img/mayor_btn.png);
-              background-position: -130px 0px;
-            }
-          }
       }
+      .mayor_btn{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom:0; 
+        width:520px;
+        height: 115px;
+        background-color: #d84048;
+        border-radius: 20px;
+        a{
+          font-size: 16px;
+          color:white;
+          margin: 25px 15px 0px;
+        }
+        .mayor_want::before{
+          content:'';
+          display: block;
+          margin:0px auto 10px;
+          width: 44px;
+          height: 44px;
+          background-image: url(../img/mayor_btn.png);
+        }
+        .mayor_promise::before{
+          content:'';
+          display: block;
+          margin:0px auto 10px;
+          width: 44px;
+          height: 44px;
+          background-image: url(../img/mayor_btn.png);
+          background-position: -42px 0px;
+        }
+        .mayor_photo::before{
+          content:'';
+          display: block;
+          margin:0px auto 10px;
+          width: 44px;
+          height: 44px;
+          background-image: url(../img/mayor_btn.png);
+          background-position: -86px 0px;
+        }
+        .mayor_call::before{
+          content:'';
+          display: block;
+          margin:0px auto 10px;
+          width: 44px;
+          height: 44px;
+          background-image: url(../img/mayor_btn.png);
+          background-position: -130px 0px;
+        }
+      }
+    }
   }
 }
 
@@ -484,8 +484,8 @@ header{
         }
         
       }
-    }
   }
+}
 
 .section_container3{
   position: relative;
@@ -497,7 +497,7 @@ header{
     width:100%;
     height:373px;
     background-color: #ffffff;
-    padding: 70px 0px 80px;
+    padding: 70px 0px 38px;
     display: flex;
     justify-content: space-between;
     .notice{
@@ -653,14 +653,177 @@ header{
 }
 
 .section_container4{
+  position: relative;
+  width:100%;
+  background-color: white;
   .section4{
-    width:100%;
+    max-width: 1400px;
+    margin: auto;
     height:700px;
-    background-color: #ccc0c0;
     padding: 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    .city_edu{
+      width:995px;
+      height:457px;
+      background-color: white;
+      .edu_top{
+        margin-bottom: 27px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        .edu_header{
+          font-size: 30px;
+          font-weight: bolder;
+        }
+        button{
+          border: none;
+          background-color: white;
+        }
+      }
+      .edu_card_boxes{
+        width:990px;
+        height:392px;
+        display: flex;
+        justify-content: space-between;
+        .edu_box{
+        width:311px;
+        height:392px;
+        border: 1px solid #e6e8eb;
+        border-radius: 15px;
+        .img_box{
+          border-radius: 15px 15px 0px 0px;
+          overflow: hidden;
+          width:311px;
+          height:217px;
+          img{
+            width:100%;
+            height:100%;
+          }
+        }
+        .explain_box{
+          width:311px;
+          height:170px;
+          padding:20px;
+          box-sizing: border-box;
+          .explain_p{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            span:nth-child(1){
+              padding: 0px 10px;
+              font-size: 15px;
+              color: #9363c0;
+              border: #9363c0 1px solid;
+              border-radius: 10px;
+              line-height: 1.5;
+            }
+            }
+            span:nth-child(2){
+              font-family: sans-serif;
+              font-size: 15px;
+              line-height: 1.8 ;
+            }
+            .explain{
+              font-family: sans-serif;
+              font-size: 18px;
+              line-height: 1.6;
+              color: #333;
+            }
+          }
+          
+          }
+        }
+    }
+    .city_notice{
+      width:360px;
+      height:457px;
+      background-color: white;
+      .notice_top{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 27px;
+        .notice_header{
+          font-size: 30px;
+          font-weight: bolder;
+        }
+        button{
+          background-color: white;
+          border:none;
+        }
+      }
+      .notice_boxes{
+        width: 360px;
+        height: 328px;
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        .notice_box{
+          width: 255px;
+          height: 328px;
+          margin-right: 20px;
+          .notice_article{
+            width: 255px;
+            height: 156px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            position: relative;
+            img{
+              width: 100%;
+              height: 100%;
+              border-radius: 15px;
+            z-index: 999;
+          }
+          .article_ico{
+            position: absolute;
+            z-index: 99;
+            right: 37px;
+            bottom: 34px;
+            width: 42px;
+            height: 42px;
+            background-image: url(../../img/sns_ico3.png);
+          }
+          .notice_explain{
+            width:100%;
+            height:44px;
+            border-radius: 0px 0px 10px 10px;
+            background-color: #333;
+            position:absolute;
+            bottom:0;
+            padding-left: 15px;
+            text-align: left;
+            line-height: 2.4;
+            span{
+              color:white;
+              font-size: 17px;
+            }
+          }
+        }
+        }
+        
+      }
+      .notice_boxes::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 26.6666666667%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent 0, rgba(255,255,255,.2) 30%, rgba(255,255,255,1) 100%);
+      }     
+      }
+      .sns_box{
+        width:360px;
+        height:42px;
+        display: flex;
+        justify-content: space-between;
+      }
   }
 }
-  
+
 footer{
   width:100%;
   height:245px;

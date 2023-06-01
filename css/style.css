@@ -549,7 +549,7 @@ header nav .nav_bar .ico_list .searching_ico::before {
   width: 100%;
   height: 373px;
   background-color: #ffffff;
-  padding: 70px 0px 80px;
+  padding: 70px 0px 38px;
   display: flex;
   justify-content: space-between;
 }
@@ -701,11 +701,174 @@ header nav .nav_bar .ico_list .searching_ico::before {
   background-color: white;
 }
 
-.section_container4 .section4 {
+.section_container4 {
+  position: relative;
   width: 100%;
+  background-color: white;
+}
+.section_container4 .section4 {
+  max-width: 1400px;
+  margin: auto;
   height: 700px;
-  background-color: #ccc0c0;
   padding: 50px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.section_container4 .section4 .city_edu {
+  width: 995px;
+  height: 457px;
+  background-color: white;
+}
+.section_container4 .section4 .city_edu .edu_top {
+  margin-bottom: 27px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.section_container4 .section4 .city_edu .edu_top .edu_header {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.section_container4 .section4 .city_edu .edu_top button {
+  border: none;
+  background-color: white;
+}
+.section_container4 .section4 .city_edu .edu_card_boxes {
+  width: 990px;
+  height: 392px;
+  display: flex;
+  justify-content: space-between;
+}
+.section_container4 .section4 .city_edu .edu_card_boxes .edu_box {
+  width: 311px;
+  height: 392px;
+  border: 1px solid #e6e8eb;
+  border-radius: 15px;
+}
+.section_container4 .section4 .city_edu .edu_card_boxes .edu_box .img_box {
+  border-radius: 15px 15px 0px 0px;
+  overflow: hidden;
+  width: 311px;
+  height: 217px;
+}
+.section_container4 .section4 .city_edu .edu_card_boxes .edu_box .img_box img {
+  width: 100%;
+  height: 100%;
+}
+.section_container4 .section4 .city_edu .edu_card_boxes .edu_box .explain_box {
+  width: 311px;
+  height: 170px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.section_container4 .section4 .city_edu .edu_card_boxes .edu_box .explain_box .explain_p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.section_container4 .section4 .city_edu .edu_card_boxes .edu_box .explain_box .explain_p span:nth-child(1) {
+  padding: 0px 10px;
+  font-size: 15px;
+  color: #9363c0;
+  border: #9363c0 1px solid;
+  border-radius: 10px;
+  line-height: 1.5;
+}
+.section_container4 .section4 .city_edu .edu_card_boxes .edu_box .explain_box span:nth-child(2) {
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.section_container4 .section4 .city_edu .edu_card_boxes .edu_box .explain_box .explain {
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+.section_container4 .section4 .city_notice {
+  width: 360px;
+  height: 457px;
+  background-color: white;
+}
+.section_container4 .section4 .city_notice .notice_top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
+}
+.section_container4 .section4 .city_notice .notice_top .notice_header {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.section_container4 .section4 .city_notice .notice_top button {
+  background-color: white;
+  border: none;
+}
+.section_container4 .section4 .city_notice .notice_boxes {
+  width: 360px;
+  height: 328px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.section_container4 .section4 .city_notice .notice_boxes .notice_box {
+  width: 255px;
+  height: 328px;
+  margin-right: 20px;
+}
+.section_container4 .section4 .city_notice .notice_boxes .notice_box .notice_article {
+  width: 255px;
+  height: 156px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.section_container4 .section4 .city_notice .notice_boxes .notice_box .notice_article img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  z-index: 999;
+}
+.section_container4 .section4 .city_notice .notice_boxes .notice_box .notice_article .article_ico {
+  position: absolute;
+  z-index: 99;
+  right: 37px;
+  bottom: 34px;
+  width: 42px;
+  height: 42px;
+  background-image: url(../../img/sns_ico3.png);
+}
+.section_container4 .section4 .city_notice .notice_boxes .notice_box .notice_article .notice_explain {
+  width: 100%;
+  height: 44px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #333;
+  position: absolute;
+  bottom: 0;
+  padding-left: 15px;
+  text-align: left;
+  line-height: 2.4;
+}
+.section_container4 .section4 .city_notice .notice_boxes .notice_box .notice_article .notice_explain span {
+  color: white;
+  font-size: 17px;
+}
+.section_container4 .section4 .city_notice .notice_boxes::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 26.6666666667%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent 0, rgba(255, 255, 255, 0.2) 30%, rgb(255, 255, 255) 100%);
+}
+.section_container4 .section4 .sns_box {
+  width: 360px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer {
