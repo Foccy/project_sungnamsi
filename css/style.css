@@ -197,6 +197,10 @@ header nav .nav_bar .menu_list {
 header nav .nav_bar .menu_list li {
   height: 100%;
 }
+header nav .nav_bar .menu_list li:hover a {
+  color: #d84048;
+  transition: all 0.3s;
+}
 header nav .nav_bar .menu_list li a {
   align-items: center;
   justify-content: center;
@@ -303,6 +307,9 @@ header nav .nav_bar .ico_list .searching_ico::before {
   font-size: 13px;
   font-family: sans-serif;
   margin-right: 10px;
+}
+.section_container1 .section1 .section1_grouping .search_box .popular_search .popular_word span:hover {
+  text-decoration: underline;
 }
 .section_container1 .section1 .section1_grouping .search_box .popular_search button {
   margin-left: 5px;
@@ -507,6 +514,10 @@ header nav .nav_bar .ico_list .searching_ico::before {
   background-color: white;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
 }
+.section_container2 .section2 .main_service .service_box a:hover {
+  border: 1px #636677 solid;
+  font-weight: bolder;
+}
 .section_container2 .section2 .public_infromation {
   width: 395px;
   height: 517px;
@@ -531,6 +542,9 @@ header nav .nav_bar .ico_list .searching_ico::before {
   border-radius: 15px;
   background-color: white;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+.section_container2 .section2 .public_infromation .public_info_ico a:hover {
+  background-color: #F8dee0;
 }
 .section_container2 .section2 .public_infromation .public_info_ico a p {
   margin-top: 15px;
@@ -570,7 +584,7 @@ header nav .nav_bar .ico_list .searching_ico::before {
   width: 170px;
   height: 54px;
   text-align: center;
-  line-height: 2.5;
+  line-height: 2.7;
 }
 .section_container3 .section3 .notice div .notice_list li a {
   font-size: 20px;
@@ -617,7 +631,7 @@ header nav .nav_bar .ico_list .searching_ico::before {
   text-align: center;
   line-height: 1.8;
 }
-.section_container3 .section3 .notice .notice_info .info_box p:nth-child(2) {
+.section_container3 .section3 .notice .notice_info .info_box a p:nth-child(1) {
   margin-bottom: 10px;
   font-size: 18px;
   white-space: nowrap;
@@ -625,7 +639,10 @@ header nav .nav_bar .ico_list .searching_ico::before {
   overflow: hidden;
   font-weight: bolder;
 }
-.section_container3 .section3 .notice .notice_info .info_box p:nth-child(3) {
+.section_container3 .section3 .notice .notice_info .info_box a p:nth-child(1):hover {
+  color: #d84048;
+}
+.section_container3 .section3 .notice .notice_info .info_box a p:nth-child(2) {
   font-family: sans-serif;
   font-size: 15px;
   color: #888;
@@ -657,6 +674,9 @@ header nav .nav_bar .ico_list .searching_ico::before {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
 }
+.section_container3 .section3 .notice .notice_info .info_list .list_arry li:hover a {
+  color: #d84048;
+}
 .section_container3 .section3 .notice .notice_info .info_list .list_arry span {
   font-size: 13px;
   line-height: 2.5;
@@ -671,18 +691,45 @@ header nav .nav_bar .ico_list .searching_ico::before {
   justify-content: space-between;
   height: 61px;
   margin-bottom: 50px;
-  border-radius: 10px;
-  border: 1px solid #dedede;
 }
 .section_container3 .section3 .city_hall .city_hall_list li {
   width: 135px;
-  height: 61px;
-  border-right: 1px solid #dedede;
+  height: 100%;
   text-align: center;
   line-height: 3.2;
 }
 .section_container3 .section3 .city_hall .city_hall_list li a {
   font-size: 19px;
+}
+.section_container3 .section3 .city_hall .city_hall_list li:nth-child(1) {
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid #dedede;
+}
+.section_container3 .section3 .city_hall .city_hall_list li:nth-child(1):hover {
+  border: 1px solid #d84048;
+}
+.section_container3 .section3 .city_hall .city_hall_list li:nth-child(1):hover a {
+  color: #d84048;
+}
+.section_container3 .section3 .city_hall .city_hall_list li:nth-child(2) {
+  border-radius: 0px 0px 0px 0px;
+  border: 1px solid #dedede;
+}
+.section_container3 .section3 .city_hall .city_hall_list li:nth-child(2):hover {
+  border: 1px solid #d84048;
+}
+.section_container3 .section3 .city_hall .city_hall_list li:nth-child(2):hover a {
+  color: #d84048;
+}
+.section_container3 .section3 .city_hall .city_hall_list li:nth-child(3) {
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid #dedede;
+}
+.section_container3 .section3 .city_hall .city_hall_list li:nth-child(3):hover {
+  border: 1px solid #d84048;
+}
+.section_container3 .section3 .city_hall .city_hall_list li:nth-child(3):hover a {
+  color: #d84048;
 }
 .section_container3 .section3 .city_hall .city_hall_banner {
   border-radius: 15px;
@@ -744,6 +791,9 @@ header nav .nav_bar .ico_list .searching_ico::before {
   height: 392px;
   border: 1px solid #e6e8eb;
   border-radius: 15px;
+}
+.section_container4 .section4 .city_edu .edu_card_boxes .edu_box:hover {
+  border: 1px solid #d84048;
 }
 .section_container4 .section4 .city_edu .edu_card_boxes .edu_box .img_box {
   border-radius: 15px 15px 0px 0px;
@@ -825,6 +875,10 @@ header nav .nav_bar .ico_list .searching_ico::before {
   overflow: hidden;
   position: relative;
 }
+.section_container4 .section4 .city_notice .notice_boxes .notice_box .notice_article:hover .article_ico {
+  transition-duration: 0.3s;
+  transform: translateY(-15px);
+}
 .section_container4 .section4 .city_notice .notice_boxes .notice_box .notice_article img {
   width: 100%;
   height: 100%;
@@ -834,8 +888,8 @@ header nav .nav_bar .ico_list .searching_ico::before {
 .section_container4 .section4 .city_notice .notice_boxes .notice_box .notice_article .article_ico {
   position: absolute;
   z-index: 99;
-  right: 37px;
-  bottom: 34px;
+  right: 15px;
+  bottom: 33px;
   width: 42px;
   height: 42px;
   background-image: url(../../img/sns_ico3.png);
@@ -860,7 +914,7 @@ header nav .nav_bar .ico_list .searching_ico::before {
   position: absolute;
   right: 0;
   top: 0;
-  width: 26.6666666667%;
+  width: 26.6%;
   height: 100%;
   background: linear-gradient(90deg, transparent 0, rgba(255, 255, 255, 0.2) 30%, rgb(255, 255, 255) 100%);
 }
