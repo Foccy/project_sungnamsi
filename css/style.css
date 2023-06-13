@@ -63,6 +63,10 @@ a:hover, :visited, :focus, :link {
   text-decoration: none;
 }
 
+.on {
+  display: block;
+}
+
 header {
   position: relative;
   width: 100%;
@@ -191,17 +195,18 @@ header nav .nav_bar .logo_box .event_logo::before {
   right: 165px;
   transform: translateY(-50%);
 }
-header nav .nav_bar .menu_list {
+header nav .nav_bar .one_depth_menu_list {
   display: flex;
 }
-header nav .nav_bar .menu_list li {
+header nav .nav_bar .one_depth_menu_list li {
+  padding: 42px 0px;
   height: 100%;
 }
-header nav .nav_bar .menu_list li:hover a {
+header nav .nav_bar .one_depth_menu_list li:hover a {
   color: #d84048;
   transition: all 0.3s;
 }
-header nav .nav_bar .menu_list li a {
+header nav .nav_bar .one_depth_menu_list li a {
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -228,6 +233,71 @@ header nav .nav_bar .ico_list .searching_ico::before {
   font-size: 32px;
   font-weight: 900;
   padding-left: 15px;
+}
+header .hidden_nav_depth .nav_depth {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 144px;
+  height: 500px;
+  z-index: 1;
+}
+header .hidden_nav_depth .nav_depth .nav_depth_container {
+  max-width: 1400px;
+  margin: 30px auto;
+}
+header .hidden_nav_depth .nav_depth .nav_depth_container .nav_depth_container_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+header .hidden_nav_depth .nav_depth .nav_depth_container .nav_depth_container_box li {
+  width: 19%;
+}
+header .hidden_nav_depth .nav_depth .nav_depth_container .nav_depth_container_box li ul {
+  margin: 11px 0px 15px 0px;
+}
+header .hidden_nav_depth .nav_depth .nav_depth_container .nav_depth_container_box li ul li {
+  width: 100%;
+}
+header .hidden_nav_depth .nav_depth .nav_depth_container .nav_depth_container_box li ul li a {
+  font-size: 14px;
+  font-weight: lighter;
+  border: none;
+}
+header .hidden_nav_depth .nav_depth .nav_depth_container .nav_depth_container_box li a {
+  display: block;
+  font-size: 16px;
+  font-weight: bolder;
+  position: relative;
+  width: 100%;
+  padding: 7px 15px;
+  color: #555;
+  transition: 0.3s;
+  background-color: #fff;
+  border: 1px solid #c5c9d6;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+header .hidden_nav_depth .nav_depth:nth-child(1) {
+  background-color: white;
+}
+header .hidden_nav_depth .nav_depth:nth-child(1) li {
+  margin-right: 10px;
+}
+header .hidden_nav_depth .nav_depth:nth-child(2) {
+  background-color: blue;
+}
+header .hidden_nav_depth .nav_depth:nth-child(3) {
+  background-color: rgb(59, 59, 114);
+}
+header .hidden_nav_depth .nav_depth:nth-child(4) {
+  background-color: rgb(53, 131, 45);
+}
+header .hidden_nav_depth .nav_depth:nth-child(5) {
+  background-color: rgb(148, 174, 46);
+}
+header .hidden_nav_depth .nav_depth:nth-child(6) {
+  background-color: rgb(174, 46, 142);
 }
 
 .section_container1 {

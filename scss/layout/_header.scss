@@ -1,3 +1,7 @@
+.on{
+  display: block;
+}
+
 header{
   position: relative;
   width:100%;
@@ -124,9 +128,10 @@ header{
           transform: translateY(-50%);
         }
       }
-      .menu_list{
+      .one_depth_menu_list{
         display: flex;
         li{
+          padding: 42px 0px;
           &:hover a{
             color: #d84048;
             transition: all 0.3s;
@@ -165,6 +170,74 @@ header{
       }
     }
     
+  }
+  .hidden_nav_depth{
+    .nav_depth{
+      display: none;
+      width: 100%;
+      position : absolute;
+      top:144px;
+      height:500px;
+      z-index: 1;
+      .nav_depth_container{
+        max-width: 1400px;
+        margin: 30px auto;
+        .nav_depth_container_box{
+          display: flex;
+          flex-wrap: wrap;
+          li{
+            width:19%;
+            ul{
+              margin:11px 0px 15px 0px;
+              li{
+                width:100%;
+                a{
+                  font-size: 14px;
+                  font-weight: lighter;
+                  border:none;
+                }
+                
+              }
+            }
+            a{
+              display: block;
+              font-size: 16px;
+              font-weight: bolder;
+              position: relative;
+              width: 100%;
+              padding: 7px 15px;
+              color: #555;
+              transition: .3s;
+              background-color: #fff;
+              border: 1px solid #c5c9d6;
+              border-radius: 5px;
+              box-sizing: border-box;
+            }
+          }
+        }
+      }
+    }
+    .nav_depth:nth-child(1){
+      background-color: white;
+      li{
+        margin-right: 10px;
+      }
+    }
+    .nav_depth:nth-child(2){
+      background-color: blue;
+    }
+    .nav_depth:nth-child(3){
+      background-color: rgb(59, 59, 114);
+    }
+    .nav_depth:nth-child(4){
+      background-color: rgb(53, 131, 45);
+    }
+    .nav_depth:nth-child(5){
+      background-color: rgb(148, 174, 46);
+    }
+    .nav_depth:nth-child(6){
+      background-color: rgb(174, 46, 142);
+    }
   }
 }
 
