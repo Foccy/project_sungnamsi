@@ -241,6 +241,8 @@ header .hidden_nav_depth .nav_depth {
   top: 144px;
   height: 500px;
   z-index: 1;
+  border-top: 2px solid #ececec;
+  border-bottom: 2px solid #ececec;
 }
 header .hidden_nav_depth .nav_depth .nav_depth_container {
   max-width: 1400px;
@@ -264,6 +266,11 @@ header .hidden_nav_depth .nav_depth .nav_depth_container .nav_depth_container_bo
   font-weight: lighter;
   border: none;
 }
+header .hidden_nav_depth .nav_depth .nav_depth_container .nav_depth_container_box li ul li a::before {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+}
 header .hidden_nav_depth .nav_depth .nav_depth_container .nav_depth_container_box li a {
   display: block;
   font-size: 16px;
@@ -285,7 +292,11 @@ header .hidden_nav_depth .nav_depth:nth-child(1) li {
   margin-right: 10px;
 }
 header .hidden_nav_depth .nav_depth:nth-child(2) {
-  background-color: blue;
+  background-color: white;
+  height: 430px;
+}
+header .hidden_nav_depth .nav_depth:nth-child(2) li {
+  margin-right: 10px;
 }
 header .hidden_nav_depth .nav_depth:nth-child(3) {
   background-color: rgb(59, 59, 114);
